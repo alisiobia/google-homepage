@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google</title>
+
+<style>
+
+body {
+background-color: white;
+
+
+}
+
+header ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+header li {
+  float: right;
+
+
+}
+
+
+header li a {
+  color: #000;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size:14px;}
+
+.grid{
+  height:23px;
+  position:relative;
+  bottom:4px;}
+
+  .signbutton{
+  background-color: #4885ed;
+  color: #fff;
+  border:none;
+  border-radius:3px;
+  padding:7px 10px;
+  position:relative;
+  bottom:7px;
+  font-weight:bold;}
+
+
+
+
+
+#footer1 a{
+text-decoration: none;
+margin-left: -1%;
+padding: 3%;;
+margin-below: -1%;
+
+}
+
+#footer2 {
+background-color: gray;
+width: 100%;
+margin-top: -2.5%;
+
+}
+
+
+#footer2 li{
+list-style-type: none;
+padding: 3%;
+
+
+}
+
+#footer2 a {
+
+text-decoration: none;
+font-size: 15px;
+}
+
+
+
+#footer2 li :first-child { margin-left: -60px !important; }
+
+
+.fleft {
+float: left;
+  
+
+
+}
+
+.fright {
+    float: right;
+
+  
+
+
+}
+
+
+.mid {
+text-align: center;
+margin-bottom: 6%;
+font-size: 12px;
+
+}
+.mid a { padding: 1%;}
+
+
+
+.search {
+margin: 40px 100px 10px 500px;
+}
+
+.voice{
+  height:20px;
+  position:relative;
+  top:5px;
+  left:10px;
+
+}
+
+#textbox{
+    height:25px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    font-size:16px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    outline:none;
+    position: center
+}
+
+#button {
+    background-color: #f5f5f5;
+  border:none;
+  color:#707070;
+  font-size:15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ margin-left: 100px;
+  border-radius:4px;
+  outline:none;}
+    
+  #button:hover{
+  border: 1px solid #c8c8c8;
+  padding: 9px 19px;
+  color:#808080;
+}
+#button:focus{
+  border:1px solid #4885ed;
+  padding: 9px 19px;
+}
+.logo{
+  margin-top:150px;
+  margin-bottom:10px;
+  margin-left:650px;}
+
+</style>
+
+
+
+
+</head>
+<body>
+
+
+
+
+
+
+<header>
+        <ul>
+         <li><a class="links" href="#user"><button class="signbutton" type="button">Sign in</button></a></li>
+           <li><a href="#grid"><img class="grid" src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png" title="Google apps"></a></li>
+          <li><a href="#images">Images</a></li>
+          <li><a href="#gmail">Gmail</a></li>
+          </ul>  
+    </header>
+
+
+</div>
+
+
+<div class="logo">
+      <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+
+
+
+<div class="search">
+<input id="textbox" type="text" /> 
+ <a href="#"> <img class="voice" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png" title="Search by Voice"></a>
+<br>
+<input id="button" type="submit" value="Google Search">
+<input id="button" type="submit" value="Im Feeling Lucky">
+</div>
+
+<p class= "mid"> Google offered in: <a href="#">Hausa</a></li>  <a href="#">Igbo</a></li>  <a href="#">Ede</a></li>  <a href="#">Yoruba</a></li>  <a href="#">Nigerian Pidgin</a></li>
+
+
+
+<footer id="footer1"> 
+
+<a href="#">Nigeria</a></li>
+</footer>
+
+<footer id="footer2">
+
+<ul>
+<li class="fleft"> <a href="#">Advertising</a></li>
+<li class="fleft"><a href="#"> Business</a></li>
+<li class="fleft"><a href="#"> About</a></li>
+<li class="fleft"><a href="#"> How Search works</a></li>
+<li class="fright"><a href="#">Settings</a></li>
+<li class="fright"><a href="#"> Terms</a></li>
+<li class="fright"> <a href="#">Privacy</a></li>
+
+
+</ul>
+
+
+</footer>
+
+
+</body>
+</html>

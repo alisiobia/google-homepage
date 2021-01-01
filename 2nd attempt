@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+ <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Google</title>
+<link class="favicon" rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<style>
+
+.buttonform{
+height: 70px;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+	    display: block
+    color: #202124;
+	display: block;
+    text-align: -webkit-center;
+}
+
+.topnav {
+    background-color: transparent;
+	    display: inline-block;
+		float: right;
+		  
+    position: relative;
+	    color: black;
+   font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+
+.topnav li {
+  text-decoration: none;
+    white-space: nowrap;
+	display: inline-block;
+
+}
+
+.topnav a{
+color: black;
+padding-left: 15px;
+    margin: 0 !important;
+	    text-decoration: none;
+    white-space: nowrap;
+	display: inline-block;
+}
+
+.topnavlast{
+padding-right:10px;
+}
+
+.topnav img{
+width: 20px;
+height: auto;
+text-align: center;
+margin-bottom: -20%;
+}
+
+
+.searchbar {
+    width: 35%;
+	    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+	margin: auto;
+	flex: 1;
+    padding: 0px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.searchicon{
+overflow: hidden;
+ 
+}
+
+.logo {
+display: inline-block;
+width:100%;
+line-height:200px;
+    transition: height 0.4s ease,transform 0.4s ease,width 0.4s ease;
+	    padding-top: 5%;
+		    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+	text-align: center;
+	margin-bottom: -2%;
+}
+
+.logo img {
+	text-align: center;
+}
+.main-content {
+padding-bottom: 35px;
+    display: block;
+	    color: #202124;
+		width: auto;
+    min-width: 400px;
+	    margin: 0 auto;
+}
+
+.footbar {
+    background: #f2f2f2;
+    line-height: 40px;
+	display: block;
+	bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+	border-top: 1px solid #dadce0;
+    min-width: 400px;
+}
+
+
+.footbar-top {
+margin-left: 30px;
+    text-align: left
+	color: rgba(0,0,0,.54);
+    padding-left: 27px;
+	border-bottom: 1px solid #dadce0;
+	display: block;
+}
+
+.footbar-bottom {
+	display:block;
+	border-bottom: 1px solid #dadce0;
+	padding-bottom: 40px;
+
+}
+
+.footbar-bottom-left {
+	margin-left: 30px;
+    float: left;
+	
+}
+
+.footbar-bottom-right {
+	float: right;
+    margin-right: 30px;
+}
+
+.nigeria {
+    font-size: 15px;
+}
+
+.footer-link{
+	padding-left: 27px;
+    margin: 0 !important;
+	    text-decoration: none;
+    white-space: nowrap;
+	display: inline-block;
+	    color: #70757a;
+}
+
+.nigeria {
+	    color: #70757a;
+}
+
+.button1{
+background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button2{
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.pspan{
+text-align: center;
+}
+.pspan li{
+display: inline-block;
+padding-left:10px;
+}
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<nav class="topnav"> 
+
+<ul>
+<li><a href="#">Gmail </a></li>
+<li><a href ="#"> Images </a></li>
+<li><a href="#"><img src="hamburger.png"/></a></li>
+<li ><a class="topnavlast" href="#">Sign in </a></li>
+</ul>
+
+</nav>
+
+
+<div class="main-content"> 
+
+	<span class="logo"> <img src="logo.png"/> </span>
+	
+	
+
+	<div class="searchbar">  
+	<span class="searchicon">
+	<img src="searchicon"/>
+	</span>
+   
+ 
+	</div>
+	 <form class="buttonform">
+	
+      <button type="button" class="button1">Google Search</button>
+	  <button type="button" class="button2">I'm feeling lucky</button>
+	  
+    </form>
+	
+	<span class="pspan">
+	<ul>
+	<li> Google offered in: </li>
+	<li> <a>Hausa</a> </li>
+	<li> <a> Igbo </a> </li>
+	<li> <a> Ede Yoruba </a></li>
+	<li> <a> Nigerian Pidgin </a> </li>
+	</ul>
+	</span>
+
+</div>
+
+
+
+
+
+
+
+<div class="footbar">
+
+<div class="footbar-top"> <span class="nigeria"> Nigeria </span> </div>
+
+
+<div class="footbar-bottom">
+
+<span class="footbar-bottom-left"> 
+<a class="footer-link" href="https://www.google.com/intl/en_ng/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+<a class="footer-link" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+<a class="footer-link" href="https://about.google/?utm_source=google-NG&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+<a class="footer-link" href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a>
+ </span>
+<span class="footbar-bottom-right"> 
+<a class="footer-link" href="https://policies.google.com/privacy?hl=en-NG&fg=1">Privacy </a>
+<a class="footer-link" href="https://policies.google.com/terms?hl=en-NG&fg=1">Terms </a>
+<a class="footer-link" href="https://www.google.com/preferences?hl=en">Settings</a> 
+</span>
+
+ </div>
+
+ </div>
+
+
+
+
+</body>
+
+
+</html>
+
